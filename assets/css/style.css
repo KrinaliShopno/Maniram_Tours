@@ -3479,7 +3479,7 @@ hr.title-line {
     width: var(--icon-size, 32px);
     height: var(--icon-size, 32px);
     line-height: var(--icon-size, 32px);
-    background-color: #E9F6F9;
+    background-color: #01cbfe52;
     color: var(--theme-color);
     font-size: 16px;
     border-radius: 50%;
@@ -7980,7 +7980,9 @@ ol.wp-block-rss {
     margin-left: 15px;
     padding: 15px 35px
 }
-
+.th-icon1 i.fab.fa-whatsapp {
+    font-size: 22px;
+}
 @media (max-width: 1299px) {
     .header-button .th-btn {
         display: none
@@ -8104,9 +8106,11 @@ ol.wp-block-rss {
 }
 
 .header-top a:hover {
-    color: var(--theme-color)
+    color: var(--white-color)
 }
-
+.header-top-link a:hover{
+    color: var(--primary-color);
+}
 .dropdown-link {
     position: relative;
     border: 1px solid var(--light-color);
@@ -8163,7 +8167,7 @@ ol.wp-block-rss {
 
 .header-layout1 .header-top {
     position: relative;
-    padding: 6px 0;
+    padding: 13px 0;
     border-bottom: 1px solid #E1E4E5;
     z-index: 2
 }
@@ -8262,7 +8266,7 @@ ol.wp-block-rss {
 }
 
 .header-layout1 .header-right i {
-    margin-left: 5px;
+    margin-left: 0px;
     font-size: 14px
 }
 
@@ -9302,8 +9306,9 @@ ol.wp-block-rss {
 }
 
 .footer-layout1 .copyright-wrap .copyright-text {
-    font-size: 14px;
-    font-weight: 400
+     font-size: 17px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .footer-layout1 .copyright-wrap .copyright-text a {
